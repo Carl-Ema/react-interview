@@ -1,0 +1,71 @@
+const movies = [
+
+type:'"Action"
+year:"2003"
+likes:30,
+dislikes:3,
+}, {
+
+
+    title: 'Bad Boys',
+    genre:'Action',
+    actors:'Martin Lawrence', 'Will Smith'
+    durée:1:30,
+    likes: 55,
+    dislikes: 4,
+  }, {
+    
+    title: 'Pulp Fiction',
+    genre: 'Action',
+    actors: "Lana Wachowski", "Lilly Wachowski"
+    durée:2:09,
+    likes: 32,
+    dislikes:7,
+  }, {
+    
+    title: "Spy Kids",
+    genre: 'Action',
+    actors:"Alexa Vega",
+    durée:1:24
+    likes: 150,
+    dislikes:1,
+  }, {
+    
+    title: 'X-Men 2',
+    genre: 'Action',
+    actors:"Hugh Jackman",
+    durée:2:15
+    likes: 100000,
+    dislikes: 11,
+  }, {
+    
+    title: 'The Rundown',
+    genre: 'Action',
+    actors:"Dywane Johnson",
+    durée:1:44
+    likes: 548,
+    dislikes:0,
+  }, {
+    
+    title: 'Terminator 3',
+    genre: 'Action',
+    actors:'Arnold Schawarzenger'
+    durée:1:49
+    likes: 500,
+    dislikes:0,
+  }, {
+  
+     title: 'Tears of the Sun',
+    genre: 'Action',
+    actors:'Bruce Willis'
+    durée:2:22
+    likes: 180,
+    dislikes:43,
+  },
+  
+- ],
++ ],
+
+
+- export const movies$ = new movie((resolve, reject) => setTimeout(resolve, 100, movies));
++ export const movies$ = new movie((resolve, reject) => setTimeout(resolve, 100, movies))
